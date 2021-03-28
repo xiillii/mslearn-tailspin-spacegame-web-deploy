@@ -71,7 +71,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      vmImage: 'ubuntu-18.08'
+      vmImage: 'ubuntu-18.04'
     environment: dev
     variables:
     - group: Release
